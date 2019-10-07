@@ -1,0 +1,1559 @@
+/* 
+    Created on : May 16, 2016, 5:35:12 PM
+    Author     : Elmira
+*/
+
+.header-menu-block{
+    z-index: 1000;
+}
+
+@media (max-height: 610px) {
+    section{
+        height: auto;
+        padding-bottom: 80px;
+    }
+    section.hire,
+    section.portfolio{
+        padding-bottom:0;
+    }
+}
+
+@media (max-width: 1920px) { 
+    .header-menu-block{
+        padding-top: 30px;
+    }
+    .big-logo {
+        padding-top: 8%;
+    }
+    .big-logo .text {
+        font-size: 50px;
+        padding-top: 22%;
+    }
+    #about .title{
+        padding-top: 5%;
+        line-height: 1.3em;
+    }
+    #about .content-row {
+        padding-top: 15%;
+    }
+    .about-item{
+        font-size: 22px;
+        line-height: 1.3em;
+    }
+    .about-item .text{
+        margin-top: 25px;
+    }
+    #services .title img {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    #services .title h2{
+        font-size: 62px;
+        margin: 25px 0;
+    }
+    #services .title .desc{
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    .services-row .item img {
+        width: auto;
+        max-height: none;
+    }
+    .services-row .item h3 {
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    .services-row .item .text {
+        font-size: 24px;
+    }
+    #portfolio .left .title{
+        font-size: 60px;
+    }
+    #portfolio .left .desc{
+        font-size: 23px;
+    }
+    section.hire{
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 1400px) {  
+    .header-menu-block{
+        padding-top: 0px;
+    }
+    .big-logo {
+        padding-top: 1%;
+    }
+    .big-logo .text {
+        font-size: 40px;
+        padding-top: 7%;
+    }
+    #about .title{
+        padding-top: 1%;
+        line-height: 1.1em;
+    }
+    #about .content-row {
+        padding-top: 70px;
+    }
+    .about-item{
+        font-size: 19px;
+        line-height: 1.2em;
+    }
+    .about-item .text{
+        margin-top: 25px;
+    }
+    #services .title img {
+        width: 350px;
+        margin-bottom: 0px;
+    }
+    #services .title h2{
+        font-size: 50px;
+        margin: 5px 0;
+    }
+    #services .title .desc{
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .services-row .item img {
+        width: 80px;
+        max-height: 130px;
+    }
+    .services-row .item h3 {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    .services-row .item .text {
+        font-size: 20px;
+    }
+    #portfolio .left .title{
+        font-size: 45px;
+    }
+    #portfolio .left .desc{
+        font-size: 18px;
+    }
+    section.hire{
+       height: 100vh;
+    }
+}
+
+@media (max-width: 1350px) {  
+    
+    
+    
+    .container {
+        width: 96%;
+        padding: 0 2%;
+    }
+    #portfolio .container {
+        width: 90%;
+        padding: 0 2%;
+    }
+    #portfolio .left{
+        width: 60%;
+        padding: 0 5% 0 0;
+    }
+    #portfolio .right {
+        width: 35%;
+    }
+    
+    .services-row .item {
+        width: 28%;
+        margin-right: 8%;
+    }
+    #hire .container{
+        width: 100%;
+        padding: 0;
+    }
+    .footer-row .absLeft,
+    .footer-row .absRight{
+        display: none;
+    }
+    .footer-row .left{
+        width: 79%;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer-row .right {
+        width: 21%;
+    }
+    .footer-row .left .sub{
+        padding-bottom: 40px;
+    }
+    .footer-row .contacts .copy{
+        width: 45%;
+    }
+    .footer-row .contacts .email{
+        width: 35%;
+    }
+    .footer-row .contacts .phone{
+        width: 20%;
+    }
+}
+
+@media (max-width: 1303px) {
+    .about-item {
+        width: 44%;
+    }
+    .about-item:first-child {
+        margin-right: 12%;
+    }
+    .big-logo {
+        padding-top: 20px;
+    }
+    #about .content-row {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 1250px) {
+    #about .title{
+        padding-top: 40px;
+    }
+    .toPageArrow.pT150 {
+        padding-top: 115px;
+    }
+}
+@media (max-width: 1200px) {
+    #about .title{
+        padding-top: 40px;
+        font-size: 40px;
+    }
+}
+@media (max-width: 1150px) {
+    .big-logo .text{
+        padding-top: 100px;
+    }
+    #about .title{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1100px) { 
+    section.header{
+        background-size: 100% 100%;
+    }
+    .big-logo img{
+        width: 250px;
+    }
+    .big-logo .text {
+        padding-top: 15%;
+        font-size: 35px;
+    }
+    #services .title h2{
+        font-size: 38px;
+    }
+    #services .title .desc{
+        font-size: 25px;
+    }
+    .services-row .item .text,
+    #portfolio .left .desc,
+    #portfolio .left .button .more{
+        font-size: 16px;
+    }
+    #portfolio .left .title{
+        font-size: 40px;
+    }
+    #portfolio #bx-pager .inner .title{
+        font-size: 20px;
+    }
+    .footer-row .left .footer-logo {
+        margin-bottom: 10px;
+        width: 230px;
+    }
+    .footer-row .left .sub {
+        padding-bottom: 10px;
+        line-height: 1;
+        font-size: 20px;
+    }
+    .footer-row .left .text {
+        font-size: 16px;
+        height: auto;
+        overflow: initial;
+        padding-bottom: 15px;
+    }
+    .footer-row .contacts{
+        font-size: 15px;
+    }
+    .footer-menu ul{
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 950px) {
+    .big-logo img{
+        width: 200px;
+    }
+   
+    .about-item .text{
+        width: auto !important;
+    }
+    #portfolio .left .title{
+        font-size: 35px;
+    }
+    #portfolio #bx-pager .inner .title{
+        font-size: 20px;
+    }
+    #portfolio .left .desc{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .social-links a{
+        margin-right: 12px;
+    }
+    #portfolio .container{
+        width: 80%;
+    }
+    #portfolio .bxslider li{
+       padding: 0 10px 100px 0;
+    }
+    #hire .form-block{
+        width: 55%;
+    }
+    .footer-row .left{
+        width: 70%;
+    }
+    .footer-row .right {
+        width: 30%;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .toPageArrow.pT150 {
+        padding-top: 170px;
+    }
+    .about-item{
+        font-size: 16px;
+    }
+    section.services{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    section.hire{
+        height: auto;
+    }
+    #about .title{
+        padding-top: 5px;
+        width: 80%;
+        line-height: 1;
+        font-size: 25px;
+    }
+    #about .content-row {
+        padding-top: 30px;
+    }
+    .about-item {
+        width: 100%;
+        padding: 0 15% !important;
+        margin: 0 !important;
+        box-sizing: border-box;
+    }
+    #about .content-row{
+        margin-bottom: 30px;
+    }
+    #services .title h2{
+        font-size: 35px;
+    }
+    #services .title .desc{
+        font-size: 20px;
+    }
+    .services-row .item {
+        width: 80%;
+        margin: 0 auto !important;
+        float: none;
+        padding-bottom: 35px;
+    }
+    .toPageArrow.hireUs{
+        bottom: 5px;
+    }
+    #portfolio .bxslider li {
+        padding: 0 10px 130px 0;
+    }
+    .footer-row .left,
+    .footer-row .right {
+        width: 100%;
+        height: auto;
+    }
+    .footer-row .left .text{
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .footer-row .contacts .copy {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .footer-row .contacts .email,
+    .footer-row .contacts .phone{
+        width: 50%;
+    }
+    .footer-menu li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .footer-menu li a{
+        padding-bottom: 10px;
+    }
+    #services .title .desc{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    section.header{
+        height: auto;
+        padding-bottom: 220px;
+    }
+    .mobile-only{
+        display: block !important;
+    }
+    .open-mobile-menu {
+        display: block;
+        background: url(../images/mobile-menu-open.png) 0 0 no-repeat;
+        background-position: 0 34px;
+        width: 24px;
+        height: 86px;
+        margin-right: 10px;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+        cursor: pointer;
+        outline: none;
+    }
+    .close-mobile-menu {
+        background: url(../images/mobile-menu-close.png) 0 0 no-repeat;
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        cursor: pointer;
+        z-index: 150;
+        top: 0px;
+        right: -13px;
+    }
+    .header-block{
+        padding-top: 0;
+    }
+    .header-menu-block {
+        display: none;
+        position: fixed;
+        background: url(../images/footerBg.png) 0 0 repeat;
+        top: 0;
+        left: 0;
+        width: 280px;
+        padding-bottom: 100px;
+        z-index: 1000;
+    }
+    .header-menu-block .logo{
+        display: block;
+        text-align: center;
+        padding: 15px;
+        float: none;
+        margin-bottom: 30px;
+    }
+    .header-menu-block .languages{
+        display: none;
+    }
+    .header-menu-block .languages.mobile-only{
+        display: block !important;
+        float: none !important;
+        background: #AFB9C7;
+        text-align: center;
+    }
+    #lang_sel a.lang_sel_sel{
+        padding-right: 10px;
+    }
+    .header-menu-block .main-menu ul{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .header-menu-block .main-menu{
+        float: none;
+        display: block;
+    }
+    .header-menu-block .main-menu li{
+        display: block;
+        float: none !important;
+    }
+}
+@media (max-width: 650px) {
+    .toPageArrow.pT150 {
+        padding-top: 60px;
+    }
+}
+@media (max-width: 500px) {
+   .big-logo img {
+        width: 115px;
+    }
+    .big-logo .text {
+        padding-top: 55px;
+        font-size: 30px;
+    }
+    #about .title {
+        width: 80%;
+        padding-top: 0;
+        font-size: 18px;
+        
+    }
+    #about .content-row {
+        padding-top: 0px;
+    }
+    #portfolio .left .desc{
+        padding-right: 0;
+    }
+    #portfolio .left .title {
+        font-size: 20px;
+    }
+    #portfolio .left .button .more{
+        font-size: 12px;
+    }
+    #portfolio .right{
+        padding-top: 50px;
+    }
+    #hire .form-block {
+        width: 85%;
+    }
+    #hire .form-block .details,
+    #hire .form-block .name, 
+    #hire .form-block .email{
+        font-size: 17px;
+    }
+    .footer-menu li a{
+        font-size: 11px;
+    }
+    .footer-row .contacts {
+        font-size: 13px;
+    }
+    .footer-row .left .text {
+        font-size: 13px;
+    }
+    .footer-row .left .sub{
+        font-size: 16px;
+    }
+}
+@media (max-width: 375px){
+    .big-logo img {
+        width: 90px;
+    }
+    .big-logo .text {
+        padding-top: 170px;
+        font-size: 15px;
+    }
+    .toPageArrow{
+        font-size: 15px;
+    }
+    section.header {
+        background-size: 150% 100%;
+        background-position: 50% 50%;
+        padding-bottom: 120px;
+        height: 265px;
+    }
+    section.about {
+        background-size: 150% 90px;
+        background-position: 50% 0px;
+    }
+    #about .title {
+        width: 60%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .about-item{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .about-item:first-child img{
+        max-width: none;
+        width: 300px;
+    }
+    .about-item:last-child img{
+        max-width: none;
+        width: 340px;
+    }
+    .toTopIcon {
+        position: absolute;
+        right: 7px;
+        top: 12px;
+    }
+    #portfolio .left .desc {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    #portfolio .left .button .more{
+        padding: 10px;
+    }
+    #portfolio #bx-pager .inner a{
+        width: 140px !important;
+        margin-right: 10px;
+    }
+    #portfolio #bx-pager .bx-prev{
+        left: -20px;
+    }
+    #portfolio #bx-pager .bx-next {
+        right: -20px;
+    }
+    .content-row {
+        padding-top: 18px !important;
+    }
+    #services .title h2 {
+        font-size: 20px;
+    }
+    #services .title .desc{
+        margin-bottom: 35px;
+    }
+}
+
+
+
+
+/*fixed sizes screens*/
+@media (width: 1921px) and (height: 1200px) {
+    
+    section.header {
+        background-size: 100% 100%;
+    }
+    .big-logo {
+        padding-top: 10%;
+    }
+    .big-logo .text {
+        font-size: 55px;
+        padding-top: 26%;
+    }
+    .header-menu-block{
+        font-size: 22px;
+    }
+    .header .logo img{
+        width: 230px;
+    }
+    .toPageArrow{
+        font-size: 25px;
+    }
+    #about .title{
+        padding-top: 5%;
+        width: 1000px;
+        font-size: 60px;
+    }
+    .about-item{
+        font-size: 25px;
+        line-height: 1.5em;
+    }
+    #about .content-row {
+        padding-top: 20%;
+    }
+    #services .title img{
+        width: 500px;
+    }
+    #services .title h2{
+        font-size: 65px;
+        margin: 60px 0 0 0;
+        line-height: 2;
+    }
+    #services .title .desc {
+        width: 1000px;
+        margin-bottom: 95px;
+    }
+    .services-row .item img{
+        width: auto;
+        min-height: 140px;
+    }
+    .services-row .item h3{
+        font-size: 30px;
+        margin: 25px 0;
+    }
+    .services-row .item .text {
+        font-size: 26px;
+        line-height: 1.6;
+    }
+    #portfolio .left .title{
+        font-size: 65px;
+    }
+    #portfolio .left .desc{
+        font-size: 28px;
+        line-height: 1.5em;
+        margin-top: 35px;
+        padding: 0;
+    }
+    #portfolio .left {
+        width: 625px;
+        padding-right: 30px
+    }
+    #portfolio .right {
+        width: 562px;
+        float: right;
+    }
+    #portfolio .right img{
+        width: 100%;
+    }
+    #portfolio #bx-pager .inner a{
+        height: 110px;
+    }
+    #portfolio #bx-pager .inner .title{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    #portfolio #bx-pager .inner .sub {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    #portfolio #bx-pager .bx-prev, #portfolio #bx-pager .bx-next{
+        height: 140px;
+    }
+    #portfolio .bxslider li{
+        height: 1015px;
+    }
+    #portfolio #bx-pager{
+        padding: 200px 0 172px 0;
+    }
+    #hire .form-block {
+        width: 700px;
+        height: 550px;
+        margin: 100px auto;
+    }
+    #hire .form-block h1 {
+        font-size: 35px;
+    }
+    #hire .form-block .details,
+    #hire .form-block .name, #hire .form-block .email{
+        font-size: 25px;
+    }
+    #hire .form-block .details{
+        margin-bottom: 70px;
+        margin-top: 50px;
+    }
+    
+}
+@media (max-width: 1921px) and (height: 1080px) {    
+    .toPageArrow{
+        font-size: 25px;
+    }
+    .about-item .text{
+        margin: 50px 0 !important;
+    }
+    .about-item {
+        font-size: 25px;
+        line-height: 1.5em;
+    }
+    #services .title h2 {
+        margin: 40px 0 0 0;
+        line-height: 2;
+    }
+    #services .title .desc{
+        margin-bottom: 80px;
+    }
+    .services-row .item h3 {
+        font-size: 30px;
+        margin: 25px 0;
+    }
+    .services-row .item .text {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+    
+    #portfolio .left .title{
+        font-size: 65px;
+    }
+    #portfolio .left .desc{
+        font-size: 28px;
+        line-height: 1.5em;
+        margin-top: 35px;
+        padding: 0;
+    }
+    #portfolio .left {
+        width: 625px;
+        padding-right: 30px
+    }
+    #portfolio .right {
+        width: 562px;
+        float: right;
+    }
+    #portfolio .right img{
+        width: 100%;
+    }
+    #portfolio #bx-pager .inner a{
+        height: 110px;
+    }
+    #portfolio #bx-pager .inner .title{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    #portfolio #bx-pager .inner .sub {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    #portfolio #bx-pager .bx-prev, #portfolio #bx-pager .bx-next{
+        height: 140px;
+    }
+    #portfolio .bxslider li{
+        height: 1015px;
+    }
+    #portfolio #bx-pager{
+        padding: 150px 0 100px 0;
+    }
+    section.hire {
+        height: 100vh!important;
+    }
+    #hire .form-block {
+        width: 700px;
+        height: 450px;
+        margin: 100px auto;
+    }
+    #hire .form-block h1 {
+        font-size: 35px;
+    }
+    #hire .form-block .details,
+    #hire .form-block .name, #hire .form-block .email{
+        font-size: 25px;
+    }
+    #hire .form-block .details{
+        margin-bottom: 70px;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1681px) and (height: 1050px) {
+    section.header {
+        background-size: 100% 100%;
+    }
+    .about-item {
+        font-size: 25px;
+        line-height: 1.5em;
+    }
+    #services .title .desc {
+        margin-bottom: 70px;
+    }
+    .services-row .item h3 {
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .services-row .item .text {
+        font-size: 25px;
+        line-height: 1.5em;
+    }
+    
+    #portfolio .left .title{
+        font-size: 55px;
+    }
+    #portfolio .left .desc{
+        font-size: 28px;
+        line-height: 1.5em;
+        margin-top: 35px;
+        padding: 0;
+    }
+    #portfolio .left {
+        width: 625px;
+        padding-right: 30px
+    }
+    #portfolio .right {
+        width: 562px;
+        float: right;
+    }
+    #portfolio .right img{
+        width: 100%;
+    }
+    #portfolio #bx-pager .inner a{
+        height: 110px;
+    }
+    #portfolio #bx-pager .inner .title{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    #portfolio #bx-pager .inner .sub {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    #portfolio #bx-pager .bx-prev, #portfolio #bx-pager .bx-next{
+        height: 140px;
+    }
+    #portfolio .bxslider li{
+        height: 1015px;
+    }
+    #portfolio #bx-pager{
+        padding: 125px 0 100px 0;
+    }
+    section.hire {
+        height: 100vh!important;
+    }
+    #hire .form-block {
+        width: 700px;
+        height: 400px;
+        margin: 100px auto;
+    }
+    #hire .form-block h1 {
+        font-size: 35px;
+    }
+    #hire .form-block .details,
+    #hire .form-block .name, #hire .form-block .email{
+        font-size: 25px;
+    }
+    #hire .form-block .details{
+        margin-bottom: 70px;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1601px) and (height: 900px) {
+    .big-logo {
+        padding-top: 4%;
+    }
+    .big-logo .text {
+        padding-top: 20%;
+    }
+    
+     #portfolio .left .title{
+        font-size: 45px;
+    }
+    #portfolio .left .desc{
+        font-size: 25px;
+        line-height: 1.5em;
+        margin-top: 30px;
+        padding: 0;
+    }
+    #portfolio .left {
+        width: 625px;
+        padding-right: 30px
+    }
+    #portfolio .right {
+        width: 562px;
+        float: right;
+    }
+    #portfolio .right img{
+        width: 100%;
+    }
+    
+    #portfolio #bx-pager .inner .title{
+        font-size: 25px;
+        line-height: 1em;
+    }
+    #portfolio #bx-pager .inner .sub {
+        font-size: 15px;
+        margin-top: 0px;
+    }       
+    #portfolio #bx-pager{
+        padding: 80px 0;
+    }
+    section.hire {
+        height: 100vh!important;
+    }
+    #hire .form-block {
+        width: 700px;
+        height: 300px;
+        margin: 100px auto;
+    }
+    #hire .form-block h1 {
+        font-size: 30px;
+    }
+    #hire .form-block .details,
+    #hire .form-block .name, #hire .form-block .email{
+        font-size: 20px;
+    }
+    #hire .form-block .details{
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1367px) and (height: 768px) {
+    .header .big-logo img{
+        width: 250px;
+    }
+    .big-logo {
+        padding-top: 4%;
+    }
+    .big-logo .text {
+        padding-top: 17%;
+    }
+    #about .title{
+        font-size: 47px;
+        line-height: 1;
+    }
+    #about .title {
+        padding-top: 3%;
+    }
+    #about .content-row {
+        padding-top: 140px;
+    }
+    #services .title h2 {
+        margin: 60px 0 5px 0;
+    }
+    #services .title .desc{
+        margin-bottom: 40px;
+    }
+    .services-row .item h3 {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+    #portfolio #bx-pager {
+        padding: 40px 0;
+    }
+    #hire .form-block{
+        height: 360px;
+    }
+
+}
+@media (max-width: 1281px) and (height: 1024px) {
+    section.header {
+        background-size: 100% 100%;
+    }
+    .big-logo {
+        padding-top: 8%;
+    }
+    .big-logo .text{
+        padding-top: 24%;
+    }
+    #about .title{
+        font-size: 47px;
+        line-height: 1;
+        padding-top: 2%;
+    }
+    .about-item .text{
+        margin: 20px 0 !important;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    #about .content-row {
+        padding-top: 15%;
+    }
+    #services .title h2 {
+        margin: 60px 0 5px 0;
+    }
+    #services .title .desc{
+        margin-bottom: 60px;
+    }
+    .services-row .item h3 {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+    .services-row .item .text {
+        font-size: 24px;
+        line-height: 1.3em;
+    }
+    #portfolio .left .title{
+        font-size: 55px;
+    }
+    #portfolio .left .desc{
+        font-size: 28px;
+        line-height: 1.5em;
+        margin-top: 35px;
+        padding: 0;
+    }
+    #portfolio .left {
+        width: 590px;
+        padding-right: 30px
+    }
+    #portfolio .right {
+        width: 510px;
+        float: right;
+    }
+    #portfolio .right img{
+        width: 100%;
+    }
+    #portfolio #bx-pager .inner a{
+        height: 110px;
+    }
+    #portfolio #bx-pager .inner .title{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    #portfolio #bx-pager .inner .sub {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    #portfolio #bx-pager .bx-prev, #portfolio #bx-pager .bx-next{
+        height: 140px;
+    }
+    #portfolio .bxslider li{
+        height: 1015px;
+    }
+    #portfolio #bx-pager{
+        padding: 150px 0 110px 0;
+    }
+    section.hire {
+        height: 100vh!important;
+    }
+    #hire .form-block {
+        width: 700px;
+        height: 400px;
+        margin: 100px auto;
+    }
+    #hire .form-block h1 {
+        font-size: 35px;
+    }
+    #hire .form-block .details,
+    #hire .form-block .name, #hire .form-block .email{
+        font-size: 25px;
+    }
+    #hire .form-block .details{
+        margin-bottom: 70px;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1281px) and (height: 800px) {
+    section.header {
+        background-size: 100% 100%;
+    }
+    .big-logo {
+        padding-top: 3%;
+    }
+    .big-logo img{
+        width: 250px;
+    }
+    .big-logo .text{
+        padding-top: 20%;
+    }
+    #about .title{
+        font-size: 45px;
+        line-height: 1;
+        padding-top: 2%;
+    }
+    .about-item .text{
+        margin: 10px 0 !important;
+        font-size: 22px;
+        line-height: 1.2;
+    }
+    #about .content-row {
+        padding-top: 10%;
+    }
+    #services .title h2 {
+        margin: 30px 0 5px 0;
+    }
+    #services .title .desc{
+        margin-bottom: 40px;
+    }
+    .services-row .item h3 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    .services-row .item .text {
+        font-size: 22px;
+        line-height: 1.2em;
+    }
+    #portfolio .left .title{
+        font-size: 35px;
+    }
+    #portfolio .left .desc{
+        font-size: 22px;
+        line-height: 1.5em;
+        margin-top: 35px;
+        padding: 0;
+    }
+    #portfolio .left {
+        width: 590px;
+        padding-right: 30px
+    }
+    #portfolio .right {
+        width: 510px;
+        float: right;
+    }
+    #portfolio .right img{
+        width: 100%;
+    }
+   
+    #portfolio #bx-pager .inner .title{
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+    #portfolio #bx-pager .inner .sub {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+   
+    #portfolio #bx-pager{
+        padding: 50px 0 40px 0;
+    }
+    section.hire {
+        height: 100vh!important;
+    }
+    #hire .form-block {
+        width: 700px;
+       height: 380px;
+    }
+    #hire .form-block h1 {
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 1281px) and (height: 720px) {
+    section.header {
+        background-size: 100% 100%;
+    }
+    .big-logo {
+        padding-top: 3%;
+    }
+    .big-logo img{
+        width: 250px;
+    }
+    .big-logo .text{
+        padding-top: 16%;
+    }
+    #about .title{
+        font-size: 45px;
+        line-height: 1;
+        padding-top: 2%;
+    }
+    .about-item .text{
+        margin: 10px 0 !important;
+        font-size: 22px;
+        line-height: 1.2;
+    }
+    #about .content-row {
+        padding-top: 10%;
+    }
+    #services .title h2 {
+        margin: 15px 0 5px 0;
+    }
+    #services .title .desc{
+        margin-bottom: 40px;
+    }
+    .services-row .item h3 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    .services-row .item .text {
+        font-size: 22px;
+        line-height: 1.2em;
+    }
+    #portfolio .left .title{
+        font-size: 35px;
+    }
+    #portfolio .left .desc{
+        font-size: 22px;
+        line-height: 1.5em;
+        margin-top: 35px;
+        padding: 0;
+    }
+    
+    #portfolio #bx-pager{
+        padding: 100px 0 35px 0;
+    }
+    section.hire {
+        height: 100vh!important;
+    }
+    #hire .form-block {
+       width: 700px;
+       height: 300px;
+    }
+    #hire .form-block h1 {
+        font-size: 30px;
+    }    
+}
+@media (max-width: 1441px) and (height: 900px) {
+    section.header {
+        background-size: 100% 100%;
+    }
+    .big-logo {
+        padding-top: 6%;
+    }
+    .big-logo .text {
+        padding-top: 22%;
+        font-size: 35px;
+    }
+    #about .content-row {
+        padding-top: 17%;
+    }
+    #about .title{
+        font-size: 45px;
+        line-height: 1;
+        padding-top: 2%;
+    }
+    .about-item .text{
+        margin: 20px 0 !important;
+        font-size: 22px;
+        line-height: 1.2;
+    }
+     #services .title .desc{
+        margin-bottom: 50px;
+    }
+    .services-row .item h3 {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+    .services-row .item .text {
+        font-size: 22px;
+        line-height: 1.2em;
+    }
+    #portfolio .left {
+        width: 490px;
+    }
+    #portfolio .right {
+        width: 460px;
+    }
+    #portfolio #bx-pager{
+        padding: 150px 0 100px 0;
+    }
+    #portfolio .left .title {
+        font-size: 35px;
+    }
+    #portfolio .left .desc {
+        font-size: 22px;
+        line-height: 1.3em;
+        margin-top: 10px;
+    }
+    
+    section.hire {
+        height: 100vh!important;
+    }
+    #hire .form-block {
+        width: 700px;
+        height: 280px;
+        margin: 100px auto;
+    }
+    #hire .form-block h1 {
+        font-size: 30px;
+    }
+    #hire .form-block .details,
+    #hire .form-block .name, #hire .form-block .email{
+        font-size: 20px;
+    }
+    #hire .form-block .details{
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1024px) and (height: 768px) {
+   .big-logo .text {
+        padding-top: 24%;
+        font-size: 32px;
+    }
+    .header .big-logo img {
+        width: 220px;
+    }
+    #about .title {
+        padding-top: 2%;
+        font-size: 35px;
+        width: 550px;
+        line-height: 1;
+    }
+    .about-item .text {
+        margin: 20px auto;
+    }
+    #portfolio .left {
+        width: 535px;
+    }
+    #portfolio .right {
+        width: 340px;
+    }
+    #portfolio #bx-pager{
+        padding: 150px 0 100px 0;
+    }
+    #portfolio .left .title {
+        font-size: 25px;
+    }
+    #portfolio .left .desc {
+        font-size: 18px;
+        line-height: 1.2em;
+        margin-top: 10px;
+    }
+    #hire .form-block {
+        height: 300px;
+        margin: 50px auto;
+    }
+}
+@media (max-width: 769px) and (height: 1024px) {
+    
+    .big-logo .text {
+        padding-top: 25%;
+        font-size: 22px;
+    }
+    section,
+    #portfolio .bxslider li{
+        height: auto!important;
+    }
+    #about .title {
+        font-size: 25px;
+        line-height: 1;
+        padding-top: 4%;
+        width: 450px;
+    }
+    section.header {
+        height: auto;
+        padding-bottom: 180px;
+    }
+    section.about{
+        margin-top: -2px;
+    }
+    .content-row {
+        padding-top: 7% !important;
+    }
+    section{
+        height: auto;
+    }
+    #portfolio .right {
+        width: 46%;
+        float: right;
+    }
+    #portfolio .left {
+        width: 50%;
+        padding-right: 1%;
+    }
+    #portfolio .left .title {
+        font-size: 35px;
+    }
+    #portfolio .left .desc {
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+    #hire .form-block{
+        height: auto;
+        margin: 80px auto;
+    }
+    .footer-row .left{
+        height: 250px;
+    }
+    .footer-row .right{
+        height: 180px;
+    }
+}
+
+@media (max-width: 721px) and (height: 1281px) {
+    
+    section{
+        height: auto !important;
+        padding-bottom: 50px;
+    }
+    .big-logo .text {
+        padding-top: 25%;
+        font-size: 22px;
+    }
+    section.header{
+        padding-bottom: 157px;
+    }
+    #about .content-row {
+        margin-bottom: 60px;
+    }
+    section#hire{
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 481px) and (height: 801px) {
+    section{
+        height: auto !important;
+        padding-bottom: 50px;
+    }
+    #about .content-row {
+        margin-bottom: 60px;
+    }
+    section#hire{
+        padding-bottom: 0px;
+    }
+    section.header{
+        padding-bottom: 115px;
+    }
+    .big-logo .text {
+        padding-top: 100px;
+        font-size: 16px;
+    }
+    #about .title {
+        width: 55%;
+        padding-top: 15px;
+        font-size: 16px;
+    }
+    .about-item{
+        margin-top: 30px !important;
+    }
+}
+
+@media (max-width: 361px) and (height: 640px) {
+    section.header {
+        padding-bottom: 95px;
+    }
+    .big-logo .text {
+        padding-top: 90px;
+        font-size: 12px;
+    }
+    .big-logo img {
+        width: 95px;
+    }
+    #about .title {
+        width: 67%;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .toPageArrow{
+        font-size: 17px;
+    }
+    .about-item:first-child img{
+        max-width: none;
+        width: 270px;
+    }
+    .about-item:last-child img{
+        max-width: none;
+        width: 270px;
+    }
+}
+@media (max-width: 320px) and (height: 568px) {
+    .big-logo img {
+        width: 80px;
+    }
+    .big-logo .text {
+        padding-top: 130px;
+        font-size: 15px;
+    }
+    .toPageArrow{
+        font-size: 15px;
+    }
+    section.header {
+        background-size: 150% 100%;
+        background-position: 50% 50%;
+        padding-bottom: 120px;
+    }
+    section.about {
+        background-size: 150% 90px;
+        background-position: 50% 0px;
+    }
+    #about .title {
+        width: 75%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .about-item{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .about-item:first-child img{
+        max-width: none;
+        width: 300px;
+    }
+    .about-item:last-child img{
+        max-width: none;
+        width: 340px;
+    }
+}
+@media (max-width: 320px) and (height: 480px) {
+   .big-logo img {
+        width: 80px;
+    }
+    .big-logo .text {
+        padding-top: 130px;
+        font-size: 15px;
+    }
+    .toPageArrow{
+        font-size: 15px;
+    }
+    section.header {
+        background-size: 150% 100%;
+        background-position: 50% 50%;
+        padding-bottom: 120px;
+    }
+    section.about {
+        background-size: 150% 90px;
+        background-position: 50% 0px;
+    }
+    #about .title {
+        width: 75%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .about-item{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .about-item:first-child img{
+        max-width: none;
+        width: 300px;
+    }
+    .about-item:last-child img{
+        max-width: none;
+        width: 340px;
+    }
+    .toTopIcon {
+        position: absolute;
+        right: 7px;
+        top: 12px;
+    }
+}

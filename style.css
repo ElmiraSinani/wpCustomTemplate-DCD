@@ -1,0 +1,607 @@
+/*   
+Theme Name: The Code Design Theme
+Theme URI: http://theCode.testings.info
+Description: The Code Design Theme template -- WordPress v4.5.2
+Author: Elmira K.
+Author URI: 
+Version: 1
+*/
+
+body{
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.mobile-only{
+    display: none;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+section{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+section.header{
+    background: url(images/intro_bg.png) 0 bottom no-repeat;
+    background-size: 100% auto;
+    
+}
+section.about{
+    background: url(images/about_bg.png) 0 top no-repeat;
+    background-size: 100% auto;
+}
+.header-block{
+    font-family: 'robotolight';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.header-block .absHeaderImg{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.header-block .container{
+    position: relative;
+    z-index: 10;
+}
+.header-menu-block{
+    font-family: 'robotolight';
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+}
+.header-menu-block .logo{
+    padding-top: 15px;
+    display: inline-block;
+    float: left;
+}
+.header-menu-block .languages,
+.header-menu-block .main-menu{
+    display: inline-block;
+    float: right;
+    padding-top: 15px;
+}
+.header-menu-block .main-menu ul{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+    
+}
+.header-menu-block .main-menu ul li{
+    float: left;
+}
+.header-menu-block .main-menu ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+.header-menu-block .main-menu ul li a:hover{
+    border: 1px solid #fff;
+}
+
+#lang_sel li{
+    padding-top: 10px !important;
+    margin-right: 5px !important;
+}
+#lang_sel li,
+#lang_sel ul ul{
+    width: 40px;
+}
+#lang_sel a,
+#lang_sel a:visited{
+    background: none;
+    border: none;
+    padding-left: 5px;
+    font-size: 17px;
+}
+#lang_sel ul ul{
+    top: 24px;
+    border-top: 0;
+}
+#lang_sel ul ul a,
+#lang_sel ul ul a:hover,
+#lang_sel ul ul :hover > a{
+    padding: 5px 7px;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
+#lang_sel a.lang_sel_sel{
+    background: url(images/arrowBottomMenu.png) transparent right no-repeat;
+    color: #5d6bb2;
+}
+#lang_sel a.lang_sel_sel:hover{
+    color: #5d6bb2;
+}
+.pT150{
+    padding-top: 15%;
+}
+
+.big-logo{
+    text-align: center;
+    padding-top: 1%;
+}
+.big-logo .text{
+    font-family: 'HelveticaNeue-UltraLight';
+    color: #fff;
+    font-size: 40px;
+    padding-top: 7%;
+}
+.toPageArrow{
+    font-family: 'NexaLight';
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    z-index: 100;
+    bottom: 10px;
+    width: 100%;
+}
+.toPageArrow a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.toPageArrow .arrowImg img{
+    display: inline-block;
+    padding-top: 10px;
+}
+.toPageArrow a.services,
+.toPageArrow a.portfolio{
+    color: #3c3c3c;
+}
+
+
+#about .title{
+    font-family: 'NexaLight';
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    width: 730px;
+    margin: 0 auto;
+    font-weight: normal;
+    line-height: 1.1em;
+    padding-top: 2%;
+}
+
+#about .content-row{
+    padding-top: 70px;
+    display: inline-block;
+    width: 100%;
+    font-family: 'NexaLight';
+}
+
+.about-item{
+    width: 550px;
+    float: left;
+    font-size: 19px;
+    line-height: 1.1;
+}
+.about-item:first-child{
+    margin-right: 150px;
+}
+
+.about-item:first-child .text{
+    width: 420px;
+    margin: 10px auto;
+}
+.about-item:last-child .text{
+    width: 420px;
+    margin: 10px 0;
+}
+
+
+#services{
+    text-align: center;
+}
+#services .title img{
+    width: 350px;
+}
+#services .title h2{
+    font-family: 'NexaLight';
+    font-weight: normal;
+    font-size: 50px;
+    padding: 0;
+    margin: 5px 0;
+    line-height: 1;
+}
+#services .title .desc{
+    font-family: 'HelveticaNeueLTCom-Th';
+    font-size: 26px;
+    line-height: 1;
+    width: 680px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.services-row{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.services-row .item{
+    width: 400px;
+    float: left;
+    margin-right: 25px;
+}
+.services-row .item:last-child{
+    margin-right: 0;
+}
+.services-row .item h3{
+    font-family: 'NexaBold';
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.services-row .item .text{
+    font-family: 'NexaLight';
+    font-size: 20px;
+    padding-left: 15px;
+}
+.services-row .item img{
+    width: 80px;
+    max-height: 130px;
+}
+
+#portfolio{
+    background: #ecf0f3;
+    margin-top: 15px;
+    position: relative;
+}
+
+#portfolio .left{
+    width: 520px;
+    padding-right: 200px;
+    padding-left: 30px;
+    float: left;
+}
+#portfolio .right{
+    width: 500px;
+    float: left;
+}
+#portfolio #bx-pager{
+    padding: 30px 0;
+    position: relative;
+}
+#portfolio #bx-pager .inner{
+    
+}
+#portfolio #bx-pager .inner a{
+    display: inline-block;
+    width: 220px;
+    height: 70px;
+    margin-right: 20px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    color: #636363;
+    text-decoration: none;
+}
+#portfolio #bx-pager .inner a.active{
+    background: #c5cae9;
+}
+#portfolio #bx-pager .inner .title{
+    font-family: 'NexaBold';
+    font-size: 23px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+}
+#portfolio #bx-pager .inner .sub{
+    font-family: 'NexaBold';
+    font-size: 12px;
+}
+#portfolio #bx-pager .bx-wrapper{
+    max-width: none !important;
+    padding: 0 30px;
+    position: relative;
+}
+#portfolio #bx-pager .bx-prev,
+#portfolio #bx-pager .bx-next{
+    position: absolute;
+    top: 0;
+    width: 31px;
+    height: 100px;
+    background: url(images/arrowSlRight.png) 0 0 no-repeat;
+    background-position: 0 50%;
+    text-indent: -9999px;
+}
+#portfolio #bx-pager .bx-prev{
+    background: url(images/arrowSlLeft.png) 0 0 no-repeat;
+    background-position: 0 50%;
+    left: -40px;
+}
+#portfolio #bx-pager .bx-next{    
+    right: -40px;
+}
+
+#portfolio .left .title{
+    font-family: 'NexaBold';
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #636363;
+}
+#portfolio .left .title .subtitle{
+    font-family: 'NexaLight';
+    text-transform: lowercase;
+}
+#portfolio .left .desc{
+    font-family: 'NexaLight';
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 20px;
+    color: #2d2d2d;
+    padding-right: 100px
+}
+#portfolio .left .button{
+    margin-top: 30px;
+}
+#portfolio .left .button .more{
+    color: #626262;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    font-family: 'NexaLight';
+    border: 1px solid #595959;
+    padding: 15px 20px;
+    transition: all .2s ease;
+}
+#portfolio .left .button .more:hover{
+    background: #f2f2f2;
+    color: #595959;
+}
+
+.toPageArrow.hireUs{
+    font-family: 'NexaLight';
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.toPageArrow.hireUs a{
+    color: #565656;
+}
+
+#hire{
+    background: #1d282c url(images/footerImage.png) 0 0 no-repeat;
+    background-size: cover;
+    /*min-height: 750px;*/
+    /*overflow: hidden;*/
+}
+#hire .form-block{
+    font-family: 'robotolight';
+    width: 580px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+#hire .form-block h1{
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0 20px 0;
+    font-weight: normal;
+    margin: 0;
+}
+#hire .form-block .details {
+    font-family: 'robotolight';
+    font-size: 22px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 35px;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+}
+#hire .form-block .name,
+#hire .form-block .email{
+    font-family: 'robotolight';
+    font-size: 22px;
+    height: 50px;
+    width: 48%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    outline: none;
+}
+#hire .form-block .name{
+   
+}
+#hire .form-block .email{
+    margin-left: 3%;
+}
+
+#hire .form-block input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+#hire .form-block  input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+#hire .form-block input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+#hire .form-block input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+#hire .form-block input.send{
+    font-size: 22px;
+    color: #2beaec;
+    background: none;
+    border: none;
+    text-transform: lowercase;
+    outline: none;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#hire .form-block div.not-robot{
+    background: url(images/loader.png) 0 0 no-repeat;
+    background-position-y: 8px;
+    background-position-x: 165px;
+    padding: 10px 5px;
+    float: left;
+    width: 190px;
+    margin-top: 25px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+#hire .form-block input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+.wpcf7-list-item-label{
+    display: none;
+}
+#hire .form-block span.label{
+    font-size: 12px;
+    float: left;
+    padding-top: 1px;
+}
+.wpcf7-form-control-wrap.checkbox-351{
+    float: left;
+    width: 35px;
+    height: 20px;
+}
+.wpcf7-not-valid-tip{
+    display:none !important
+}
+.wpcf7-response-output.wpcf7-validation-errors,
+.wpcf7-response-output.wpcf7-mail-sent-ok,
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ng{
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    color: #f00;
+    text-align: right;
+    font-size: 10px;
+}
+.wpcf7-response-output.wpcf7-mail-sent-ok{
+    color: #5eff5e;
+}
+.footer-row{
+    position: relative;
+    display: table;
+}
+.footer-row .left{
+    background: url(images/footerBg.png) 0 0 repeat;
+    width: 990px;
+    float: left;
+    height: 380px;
+    padding: 25px 0 15px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #7f888e;
+}
+.footer-row .absLeft {
+    background: url(images/footerBg.png) 0 0 repeat;
+    content: '';
+    width: 1000px;
+    height: 380px;
+    position: absolute;
+    top: 0;
+    right: 1249px;
+    border-top: 1px solid #7f888e;
+}
+.footer-row .right{
+    width: 260px;
+    float: left;
+    background: #0b1518;
+    height: 380px;
+    box-sizing: border-box;
+    position: relative;
+}
+.footer-row .absRight {
+    background: #0b1518;
+    content: '';
+    width: 1000px;
+    height: 380px;
+    position: absolute;
+    top: 0;
+    left: 1245px;
+}
+.footer-row .left .footer-logo{
+    margin-bottom: 15px;
+}
+.footer-row .left .sub{
+    font-family: 'robotolight';
+    font-size: 23px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.footer-row .left .text{
+    font-family: 'NexaLight';
+   color: #7d7d7d;
+   font-size: 20px;
+   height: 95px;
+   overflow: hidden;
+}
+.footer-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 35px 20px;
+}
+.footer-menu li a{
+    font-family: 'robotolight';
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.social-links{
+    display: inline-block;
+    padding-left: 20px;
+}
+.social-links a{
+    width: 36px;
+    float: left;
+    margin-right: 25px;
+}
+.toTopIcon{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    cursor: pointer;
+}
+.footer-row .contacts{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'robotolight';
+}
+.footer-row .contacts .copy{
+    width: 470px;
+    float: left;
+}
+.footer-row .contacts .email{
+    width: 330px;
+    float: left;
+    font-weight: bold;
+}
+.footer-row .contacts .phone{
+    width: 170px;
+    float: left;
+}

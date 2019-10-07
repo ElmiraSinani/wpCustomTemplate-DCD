@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 13, 2016, 12:48:10 PM
+    Author     : Elmira
+*/
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'NexaLight';
+  src:  url('fonts/NexaLight.eot?#iefix') format('embedded-opentype'),  
+        url('fonts/NexaLight.otf')  format('opentype'),
+        url('fonts/NexaLight.woff') format('woff'), 
+        url('fonts/NexaLight.ttf')  format('truetype'), 
+        url('fonts/NexaLight.svg#NexaLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NexaBold';
+  src: url('fonts/NexaBold.eot?#iefix') format('embedded-opentype'),  
+		url('fonts/NexaBold.otf')  format('opentype'),
+		url('fonts/NexaBold.woff') format('woff'), 
+		url('fonts/NexaBold.ttf')  format('truetype'), 
+		url('fonts/NexaBold.svg#NexaBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-UltraLight';
+  src: url('fonts/HelveticaNeue-UltraLight.eot?#iefix') format('embedded-opentype'),  
+       url('fonts/HelveticaNeue-UltraLight.woff') format('woff'), 
+       url('fonts/HelveticaNeue-UltraLight.ttf')  format('truetype'), 
+       url('fonts/HelveticaNeue-UltraLight.svg#HelveticaNeue-UltraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'HelveticaNeueLTCom-Th';
+		src: url('fonts/HelveticaNeueLTCom-Th.eot?#iefix') format('embedded-opentype'),  
+		url('fonts/HelveticaNeueLTCom-Th.woff') format('woff'), 
+		url('fonts/HelveticaNeueLTCom-Th.ttf')  format('truetype'), 
+		url('fonts/HelveticaNeueLTCom-Th.svg#HelveticaNeueLTCom-Th') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
